@@ -7,25 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0D3C7F1BEA95BA008CA407 /* libCedar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C621BEA9570008CA407 /* libCedar.a */; };
+		0D0D3C811BEA95D3008CA407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C801BEA95D3008CA407 /* UIKit.framework */; };
 		0DE9F8A61BEA9391006954A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8A51BEA9391006954A6 /* main.m */; };
 		0DE9F8A91BEA9391006954A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8A81BEA9391006954A6 /* AppDelegate.m */; };
 		0DE9F8AC1BEA9391006954A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8AB1BEA9391006954A6 /* ViewController.m */; };
 		0DE9F8AF1BEA9391006954A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8AD1BEA9391006954A6 /* Main.storyboard */; };
 		0DE9F8B11BEA9391006954A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8B01BEA9391006954A6 /* Assets.xcassets */; };
 		0DE9F8B41BEA9391006954A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8B21BEA9391006954A6 /* LaunchScreen.storyboard */; };
-		0DE9F8BF1BEA9391006954A6 /* CedarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.m */; };
-		0DE9F8CA1BEA9391006954A6 /* CedarSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8C91BEA9391006954A6 /* CedarSampleUITests.m */; };
+		0DE9F8BF1BEA9391006954A6 /* CedarSampleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DE9F8BB1BEA9391006954A6 /* PBXContainerItemProxy */ = {
+		0D0D3C591BEA9570008CA407 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0DE9F8991BEA9391006954A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0DE9F8A01BEA9391006954A6;
-			remoteInfo = CedarSample;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE1FB611DC271300029872;
+			remoteInfo = "Cedar-OSX";
 		};
-		0DE9F8C61BEA9391006954A6 /* PBXContainerItemProxy */ = {
+		0D0D3C5B1BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE4864F81B067620005DB302;
+			remoteInfo = "Cedar-iOS";
+		};
+		0D0D3C5D1BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 346261DF1B995239002CAEBD;
+			remoteInfo = "Cedar-watchOS";
+		};
+		0D0D3C5F1BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34D7C3CA1BB9747400E8E523;
+			remoteInfo = "Cedar-tvOS";
+		};
+		0D0D3C611BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE222911DC2B0600029872;
+			remoteInfo = "Cedar-iOS StaticLib";
+		};
+		0D0D3C631BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE218611DC28E200029872;
+			remoteInfo = "Cedar-OSX Specs";
+		};
+		0D0D3C651BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A07F0813F276640021974D;
+			remoteInfo = "Cedar-OSX FocusedSpecs";
+		};
+		0D0D3C671BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE03FBE91B06C33B00013784;
+			remoteInfo = "Cedar-iOS Specs";
+		};
+		0D0D3C691BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE227611DC2CF900029872;
+			remoteInfo = "Cedar-iOS StaticLib Specs";
+		};
+		0D0D3C6B1BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE02E7E4184EABCD00414F19;
+			remoteInfo = "Cedar-iOS StaticFrameworkSpecs";
+		};
+		0D0D3C6D1BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE248F9819DCD52500092C14;
+			remoteInfo = "Cedar-OSX HostApp";
+		};
+		0D0D3C6F1BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
+			remoteInfo = "Cedar-iOS HostApp";
+		};
+		0D0D3C711BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34852D211BBE35FF0072D249;
+			remoteInfo = "Cedar-watchOS HostApp";
+		};
+		0D0D3C731BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE248FAA19DCD52500092C14;
+			remoteInfo = "Cedar-OSX SpecBundle";
+		};
+		0D0D3C751BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
+			remoteInfo = "Cedar-iOS SpecBundle";
+		};
+		0D0D3C771BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 346262781B99C1DB002CAEBD;
+			remoteInfo = "Cedar-watchOS Specs";
+		};
+		0D0D3C791BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 346262841B99C1DC002CAEBD;
+			remoteInfo = "Cedar-watchOS Specs Extension";
+		};
+		0D0D3C7B1BEA9570008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34D7C4691BB9B71600E8E523;
+			remoteInfo = "Cedar-tvOS SpecBundle";
+		};
+		0D0D3C7D1BEA95A1008CA407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE222811DC2B0600029872;
+			remoteInfo = "Cedar-iOS StaticLib";
+		};
+		0DE9F8BB1BEA9391006954A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0DE9F8991BEA9391006954A6 /* Project object */;
 			proxyType = 1;
@@ -35,6 +162,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		0D0D3C801BEA95D3008CA407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0DE9F8A11BEA9391006954A6 /* CedarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE9F8A51BEA9391006954A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DE9F8A71BEA9391006954A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,11 +175,8 @@
 		0DE9F8B31BEA9391006954A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE9F8B51BEA9391006954A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DE9F8BA1BEA9391006954A6 /* CedarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CedarSampleTests.m; sourceTree = "<group>"; };
+		0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CedarSampleTests.mm; sourceTree = "<group>"; };
 		0DE9F8C01BEA9391006954A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DE9F8C51BEA9391006954A6 /* CedarSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedarSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DE9F8C91BEA9391006954A6 /* CedarSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CedarSampleUITests.m; sourceTree = "<group>"; };
-		0DE9F8CB1BEA9391006954A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,25 +191,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DE9F8C21BEA9391006954A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0D0D3C811BEA95D3008CA407 /* UIKit.framework in Frameworks */,
+				0D0D3C7F1BEA95BA008CA407 /* libCedar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0D3C421BEA94A6008CA407 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		0D0D3C441BEA956F008CA407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D0D3C5A1BEA9570008CA407 /* Cedar.framework */,
+				0D0D3C5C1BEA9570008CA407 /* Cedar.framework */,
+				0D0D3C5E1BEA9570008CA407 /* Cedar.framework */,
+				0D0D3C601BEA9570008CA407 /* Cedar.framework */,
+				0D0D3C621BEA9570008CA407 /* libCedar.a */,
+				0D0D3C641BEA9570008CA407 /* Cedar-OSX Specs */,
+				0D0D3C661BEA9570008CA407 /* Cedar-OSX FocusedSpecs */,
+				0D0D3C681BEA9570008CA407 /* Cedar-iOS Specs.app */,
+				0D0D3C6A1BEA9570008CA407 /* Cedar-iOS StaticLib Specs.app */,
+				0D0D3C6C1BEA9570008CA407 /* Cedar-iOS StaticFrameworkSpecs.app */,
+				0D0D3C6E1BEA9570008CA407 /* Cedar-OSX HostApp.app */,
+				0D0D3C701BEA9570008CA407 /* Cedar-iOS HostApp.app */,
+				0D0D3C721BEA9570008CA407 /* Cedar-watchOS HostApp.app */,
+				0D0D3C741BEA9570008CA407 /* Cedar-OSX SpecBundle.xctest */,
+				0D0D3C761BEA9570008CA407 /* Cedar-iOS SpecBundle.xctest */,
+				0D0D3C781BEA9570008CA407 /* Cedar-watchOS Specs.app */,
+				0D0D3C7A1BEA9570008CA407 /* Cedar-watchOS Specs Extension.appex */,
+				0D0D3C7C1BEA9570008CA407 /* Cedar-tvOS SpecBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0DE9F8981BEA9391006954A6 = {
 			isa = PBXGroup;
 			children = (
+				0D0D3C801BEA95D3008CA407 /* UIKit.framework */,
+				0D0D3C421BEA94A6008CA407 /* Externals */,
 				0DE9F8A31BEA9391006954A6 /* CedarSample */,
 				0DE9F8BD1BEA9391006954A6 /* CedarSampleTests */,
-				0DE9F8C81BEA9391006954A6 /* CedarSampleUITests */,
 				0DE9F8A21BEA9391006954A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +248,6 @@
 			children = (
 				0DE9F8A11BEA9391006954A6 /* CedarSample.app */,
 				0DE9F8BA1BEA9391006954A6 /* CedarSampleTests.xctest */,
-				0DE9F8C51BEA9391006954A6 /* CedarSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,19 +279,10 @@
 		0DE9F8BD1BEA9391006954A6 /* CedarSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.m */,
+				0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.mm */,
 				0DE9F8C01BEA9391006954A6 /* Info.plist */,
 			);
 			path = CedarSampleTests;
-			sourceTree = "<group>";
-		};
-		0DE9F8C81BEA9391006954A6 /* CedarSampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0DE9F8C91BEA9391006954A6 /* CedarSampleUITests.m */,
-				0DE9F8CB1BEA9391006954A6 /* Info.plist */,
-			);
-			path = CedarSampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,30 +316,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				0D0D3C7E1BEA95A1008CA407 /* PBXTargetDependency */,
 				0DE9F8BC1BEA9391006954A6 /* PBXTargetDependency */,
 			);
 			name = CedarSampleTests;
 			productName = CedarSampleTests;
 			productReference = 0DE9F8BA1BEA9391006954A6 /* CedarSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0DE9F8C41BEA9391006954A6 /* CedarSampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DE9F8D41BEA9391006954A6 /* Build configuration list for PBXNativeTarget "CedarSampleUITests" */;
-			buildPhases = (
-				0DE9F8C11BEA9391006954A6 /* Sources */,
-				0DE9F8C21BEA9391006954A6 /* Frameworks */,
-				0DE9F8C31BEA9391006954A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0DE9F8C71BEA9391006954A6 /* PBXTargetDependency */,
-			);
-			name = CedarSampleUITests;
-			productName = CedarSampleUITests;
-			productReference = 0DE9F8C51BEA9391006954A6 /* CedarSampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -212,10 +340,6 @@
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = 0DE9F8A01BEA9391006954A6;
 					};
-					0DE9F8C41BEA9391006954A6 = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 0DE9F8A01BEA9391006954A6;
-					};
 				};
 			};
 			buildConfigurationList = 0DE9F89C1BEA9391006954A6 /* Build configuration list for PBXProject "CedarSample" */;
@@ -229,14 +353,148 @@
 			mainGroup = 0DE9F8981BEA9391006954A6;
 			productRefGroup = 0DE9F8A21BEA9391006954A6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0D0D3C441BEA956F008CA407 /* Products */;
+					ProjectRef = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0DE9F8A01BEA9391006954A6 /* CedarSample */,
 				0DE9F8B91BEA9391006954A6 /* CedarSampleTests */,
-				0DE9F8C41BEA9391006954A6 /* CedarSampleUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0D0D3C5A1BEA9570008CA407 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 0D0D3C591BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C5C1BEA9570008CA407 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 0D0D3C5B1BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C5E1BEA9570008CA407 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 0D0D3C5D1BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C601BEA9570008CA407 /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 0D0D3C5F1BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C621BEA9570008CA407 /* libCedar.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCedar.a;
+			remoteRef = 0D0D3C611BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C641BEA9570008CA407 /* Cedar-OSX Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Cedar-OSX Specs";
+			remoteRef = 0D0D3C631BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C661BEA9570008CA407 /* Cedar-OSX FocusedSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Cedar-OSX FocusedSpecs";
+			remoteRef = 0D0D3C651BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C681BEA9570008CA407 /* Cedar-iOS Specs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-iOS Specs.app";
+			remoteRef = 0D0D3C671BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C6A1BEA9570008CA407 /* Cedar-iOS StaticLib Specs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-iOS StaticLib Specs.app";
+			remoteRef = 0D0D3C691BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C6C1BEA9570008CA407 /* Cedar-iOS StaticFrameworkSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-iOS StaticFrameworkSpecs.app";
+			remoteRef = 0D0D3C6B1BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C6E1BEA9570008CA407 /* Cedar-OSX HostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-OSX HostApp.app";
+			remoteRef = 0D0D3C6D1BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C701BEA9570008CA407 /* Cedar-iOS HostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-iOS HostApp.app";
+			remoteRef = 0D0D3C6F1BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C721BEA9570008CA407 /* Cedar-watchOS HostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-watchOS HostApp.app";
+			remoteRef = 0D0D3C711BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C741BEA9570008CA407 /* Cedar-OSX SpecBundle.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cedar-OSX SpecBundle.xctest";
+			remoteRef = 0D0D3C731BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C761BEA9570008CA407 /* Cedar-iOS SpecBundle.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cedar-iOS SpecBundle.xctest";
+			remoteRef = 0D0D3C751BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C781BEA9570008CA407 /* Cedar-watchOS Specs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Cedar-watchOS Specs.app";
+			remoteRef = 0D0D3C771BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C7A1BEA9570008CA407 /* Cedar-watchOS Specs Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "Cedar-watchOS Specs Extension.appex";
+			remoteRef = 0D0D3C791BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D0D3C7C1BEA9570008CA407 /* Cedar-tvOS SpecBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Cedar-tvOS SpecBundle.bundle";
+			remoteRef = 0D0D3C7B1BEA9570008CA407 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0DE9F89F1BEA9391006954A6 /* Resources */ = {
@@ -250,13 +508,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0DE9F8B81BEA9391006954A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DE9F8C31BEA9391006954A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,30 +531,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE9F8BF1BEA9391006954A6 /* CedarSampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0DE9F8C11BEA9391006954A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DE9F8CA1BEA9391006954A6 /* CedarSampleUITests.m in Sources */,
+				0DE9F8BF1BEA9391006954A6 /* CedarSampleTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0D0D3C7E1BEA95A1008CA407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cedar-iOS StaticLib";
+			targetProxy = 0D0D3C7D1BEA95A1008CA407 /* PBXContainerItemProxy */;
+		};
 		0DE9F8BC1BEA9391006954A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0DE9F8A01BEA9391006954A6 /* CedarSample */;
 			targetProxy = 0DE9F8BB1BEA9391006954A6 /* PBXContainerItemProxy */;
-		};
-		0DE9F8C71BEA9391006954A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0DE9F8A01BEA9391006954A6 /* CedarSample */;
-			targetProxy = 0DE9F8C61BEA9391006954A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,9 +680,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CedarSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarSample.app/CedarSample";
+				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR/Externals/cedar/Source/Headers\"/**";
 			};
 			name = Debug;
 		};
@@ -449,33 +697,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CedarSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarSample.app/CedarSample";
-			};
-			name = Release;
-		};
-		0DE9F8D51BEA9391006954A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CedarSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CedarSample;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		0DE9F8D61BEA9391006954A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CedarSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CedarSample;
-				USES_XCTRUNNER = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR/Externals/cedar/Source/Headers\"/**";
 			};
 			name = Release;
 		};
@@ -498,6 +727,7 @@
 				0DE9F8D01BEA9391006954A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DE9F8D11BEA9391006954A6 /* Build configuration list for PBXNativeTarget "CedarSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,14 +736,7 @@
 				0DE9F8D31BEA9391006954A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		0DE9F8D41BEA9391006954A6 /* Build configuration list for PBXNativeTarget "CedarSampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0DE9F8D51BEA9391006954A6 /* Debug */,
-				0DE9F8D61BEA9391006954A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
