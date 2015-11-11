@@ -4,3 +4,6 @@
 [submodule "Externals/PivotalCoreKit"]
 	path = Externals/PivotalCoreKit
 	url = https://github.com/pivotal/PivotalCoreKit.git
+[submodule "Externals/Blindside"]
+	path = Externals/Blindside
+	url = https://github.com/jbsf/blindside.git

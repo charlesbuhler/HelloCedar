@@ -236,6 +236,83 @@
 			remoteGlobalIDString = 34A663A41BDF24E700EF0FEA;
 			remoteInfo = "Foundation-tvOS SpecBundle";
 		};
+		0D5A5B231BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29CAC6E4150292AD00731862;
+			remoteInfo = Blindside;
+		};
+		0D5A5B251BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE4864BD1B066F11005DB302;
+			remoteInfo = "Blindside-iOS";
+		};
+		0D5A5B271BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34E710AB1B9F85210088AB71;
+			remoteInfo = "Blindside-watchOS";
+		};
+		0D5A5B291BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343267161BAA2A9C005F2D7A;
+			remoteInfo = "Blindside-tvOS";
+		};
+		0D5A5B2B1BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29997B471505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
+		0D5A5B2D1BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29CAC7001502932000731862;
+			remoteInfo = Specs;
+		};
+		0D5A5B2F1BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE03FC1A1B0A57DD00013784;
+			remoteInfo = "Blindside-iOS BuildTest";
+		};
+		0D5A5B311BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A18BD31B9F887200A65DB3;
+			remoteInfo = "Blindside-watchOS BuildTest";
+		};
+		0D5A5B331BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A18BDF1B9F887300A65DB3;
+			remoteInfo = "Blindside-watchOS BuildTest Extension";
+		};
+		0D5A5B351BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 344DA5171BAB042E004270AD;
+			remoteInfo = "Blindside-tvOS BuildTest";
+		};
+		0D5A5B371BED5DCD001A78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 29997B461505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
 		0DE9F8BB1BEA9391006954A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0DE9F8991BEA9391006954A6 /* Project object */;
@@ -268,6 +345,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5A5B391BED5DDE001A78F2 /* libBlindside-StaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +364,9 @@
 		0D0D3C421BEA94A6008CA407 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */,
 				0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */,
+				0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -383,6 +463,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0D5A5B381BED5DCD001A78F2 /* PBXTargetDependency */,
 			);
 			name = CedarSample;
 			productName = CedarSample;
@@ -439,8 +520,16 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 0D5A5B151BED5DB6001A78F2 /* Products */;
+					ProjectRef = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+				},
+				{
 					ProductGroup = 0D0D3C441BEA956F008CA407 /* Products */;
 					ProjectRef = 0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */;
+				},
+				{
+					ProductGroup = 0D5A5AEA1BED5B33001A78F2 /* Products */;
+					ProjectRef = 0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -662,6 +751,76 @@
 			remoteRef = 0D5A5B121BED5B33001A78F2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		0D5A5B241BED5DB6001A78F2 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 0D5A5B231BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B261BED5DB6001A78F2 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 0D5A5B251BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B281BED5DB6001A78F2 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 0D5A5B271BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B2A1BED5DB6001A78F2 /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 0D5A5B291BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libBlindside-StaticLib.a";
+			remoteRef = 0D5A5B2B1BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B2E1BED5DB6001A78F2 /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 0D5A5B2D1BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B301BED5DB6001A78F2 /* Blindside-iOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-iOS BuildTest.app";
+			remoteRef = 0D5A5B2F1BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B321BED5DB6001A78F2 /* Blindside-watchOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-watchOS BuildTest.app";
+			remoteRef = 0D5A5B311BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B341BED5DB6001A78F2 /* Blindside-watchOS BuildTest Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "Blindside-watchOS BuildTest Extension.appex";
+			remoteRef = 0D5A5B331BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D5A5B361BED5DB6001A78F2 /* Blindside-tvOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-tvOS BuildTest.app";
+			remoteRef = 0D5A5B351BED5DB6001A78F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -710,6 +869,11 @@
 			isa = PBXTargetDependency;
 			name = "Cedar-iOS StaticLib";
 			targetProxy = 0D0D3C7D1BEA95A1008CA407 /* PBXContainerItemProxy */;
+		};
+		0D5A5B381BED5DCD001A78F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Blindside-StaticLib";
+			targetProxy = 0D5A5B371BED5DCD001A78F2 /* PBXContainerItemProxy */;
 		};
 		0DE9F8BC1BEA9391006954A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -828,6 +992,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$PROJECT_DIR/Externals/Blindside/Headers/Public\"";
 			};
 			name = Debug;
 		};
@@ -839,6 +1004,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$PROJECT_DIR/Externals/Blindside/Headers/Public\"";
 			};
 			name = Release;
 		};
@@ -855,7 +1021,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarSample.app/CedarSample";
-				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR/Externals/cedar/Source/Headers\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR/Externals/cedar/Source/Headers\"/** \"$PROJECT_DIR/Externals/Blindside/Headers/Public\"";
 			};
 			name = Debug;
 		};
@@ -872,7 +1038,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarSample.app/CedarSample";
-				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR/Externals/cedar/Source/Headers\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR/Externals/cedar/Source/Headers\"/** \"$PROJECT_DIR/Externals/Blindside/Headers/Public\"";
 			};
 			name = Release;
 		};
