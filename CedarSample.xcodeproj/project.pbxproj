@@ -12,6 +12,7 @@
 		0D0421F01BF29D7300D71806 /* HelloViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D0421EF1BF29D7300D71806 /* HelloViewControllerSpec.mm */; };
 		0D0D3C7F1BEA95BA008CA407 /* libCedar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C621BEA9570008CA407 /* libCedar.a */; };
 		0D0D3C811BEA95D3008CA407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C801BEA95D3008CA407 /* UIKit.framework */; };
+		0D490CDA1BF31080002E2A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D490CD81BF31080002E2A7D /* Main.storyboard */; };
 		0D5A5AE81BED5AD6001A78F2 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */; };
 		0D5A5B391BED5DDE001A78F2 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */; };
 		0D5A5B401BED6409001A78F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B3F1BED6409001A78F2 /* AppDelegate.m */; };
@@ -19,10 +20,7 @@
 		0D5A5B4B1BED688B001A78F2 /* HelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B491BED688B001A78F2 /* HelloViewController.m */; };
 		0D5A5B4C1BED688B001A78F2 /* HelloViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D5A5B4A1BED688B001A78F2 /* HelloViewController.xib */; };
 		0DE9F8A61BEA9391006954A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8A51BEA9391006954A6 /* main.m */; };
-		0DE9F8AF1BEA9391006954A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8AD1BEA9391006954A6 /* Main.storyboard */; };
 		0DE9F8B11BEA9391006954A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8B01BEA9391006954A6 /* Assets.xcassets */; };
-		0DE9F8B41BEA9391006954A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8B21BEA9391006954A6 /* LaunchScreen.storyboard */; };
-		0DE9F8BF1BEA9391006954A6 /* CedarSampleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -337,6 +335,7 @@
 		0D0421EF1BF29D7300D71806 /* HelloViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloViewControllerSpec.mm; sourceTree = "<group>"; };
 		0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		0D0D3C801BEA95D3008CA407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D490CD91BF31080002E2A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorProvider.h; path = Injector/InjectorProvider.h; sourceTree = "<group>"; };
 		0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InjectorProvider.m; path = Injector/InjectorProvider.m; sourceTree = "<group>"; };
 		0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Foundation.xcodeproj; path = PivotalCoreKit/Foundation/Foundation.xcodeproj; sourceTree = "<group>"; };
@@ -350,12 +349,9 @@
 		0D5A5B4A1BED688B001A78F2 /* HelloViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloViewController.xib; sourceTree = "<group>"; };
 		0DE9F8A11BEA9391006954A6 /* CedarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE9F8A51BEA9391006954A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0DE9F8AE1BEA9391006954A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DE9F8B01BEA9391006954A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0DE9F8B31BEA9391006954A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE9F8B51BEA9391006954A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DE9F8BA1BEA9391006954A6 /* CedarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CedarSampleTests.mm; sourceTree = "<group>"; };
 		0DE9F8C01BEA9391006954A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -443,10 +439,10 @@
 		0D5A5AD31BED5AC3001A78F2 /* Injector */ = {
 			isa = PBXGroup;
 			children = (
-				0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */,
-				0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */,
 				0D5A5B411BED6548001A78F2 /* ControllersModule.h */,
 				0D5A5B421BED6548001A78F2 /* ControllersModule.m */,
+				0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */,
+				0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */,
 				0D0421E71BF2946C00D71806 /* RouterModule.h */,
 				0D0421E81BF2946C00D71806 /* RouterModule.m */,
 			);
@@ -541,13 +537,12 @@
 		0DE9F8A31BEA9391006954A6 /* CedarSample */ = {
 			isa = PBXGroup;
 			children = (
-				0D5A5B3C1BED63B7001A78F2 /* UI */,
-				0D5A5AD31BED5AC3001A78F2 /* Injector */,
-				0DE9F8AD1BEA9391006954A6 /* Main.storyboard */,
 				0DE9F8B01BEA9391006954A6 /* Assets.xcassets */,
-				0DE9F8B21BEA9391006954A6 /* LaunchScreen.storyboard */,
 				0DE9F8B51BEA9391006954A6 /* Info.plist */,
+				0D5A5AD31BED5AC3001A78F2 /* Injector */,
+				0D490CD81BF31080002E2A7D /* Main.storyboard */,
 				0DE9F8A41BEA9391006954A6 /* Supporting Files */,
+				0D5A5B3C1BED63B7001A78F2 /* UI */,
 			);
 			path = CedarSample;
 			sourceTree = "<group>";
@@ -564,7 +559,6 @@
 			isa = PBXGroup;
 			children = (
 				0D0421ED1BF29D3A00D71806 /* UI */,
-				0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.mm */,
 				0DE9F8C01BEA9391006954A6 /* Info.plist */,
 			);
 			path = CedarSampleTests;
@@ -949,10 +943,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE9F8B41BEA9391006954A6 /* LaunchScreen.storyboard in Resources */,
 				0DE9F8B11BEA9391006954A6 /* Assets.xcassets in Resources */,
 				0D5A5B4C1BED688B001A78F2 /* HelloViewController.xib in Resources */,
-				0DE9F8AF1BEA9391006954A6 /* Main.storyboard in Resources */,
+				0D490CDA1BF31080002E2A7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,7 +977,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE9F8BF1BEA9391006954A6 /* CedarSampleTests.mm in Sources */,
 				0D0421F01BF29D7300D71806 /* HelloViewControllerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1010,20 +1002,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0DE9F8AD1BEA9391006954A6 /* Main.storyboard */ = {
+		0D490CD81BF31080002E2A7D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0DE9F8AE1BEA9391006954A6 /* Base */,
+				0D490CD91BF31080002E2A7D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0DE9F8B21BEA9391006954A6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DE9F8B31BEA9391006954A6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
