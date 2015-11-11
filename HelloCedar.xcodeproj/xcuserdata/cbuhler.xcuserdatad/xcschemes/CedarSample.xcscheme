@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DE9F8A01BEA9391006954A6"
-               BuildableName = "CedarSample.app"
-               BlueprintName = "CedarSample"
-               ReferencedContainer = "container:CedarSample.xcodeproj">
+               BuildableName = "HelloCedar.app"
+               BlueprintName = "HelloCedar"
+               ReferencedContainer = "container:HelloCedar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0DE9F8B91BEA9391006954A6"
-               BuildableName = "CedarSampleTests.xctest"
-               BlueprintName = "CedarSampleTests"
-               ReferencedContainer = "container:CedarSample.xcodeproj">
+               BuildableName = "HelloCedar.xctest"
+               BlueprintName = "HelloCedarTests"
+               ReferencedContainer = "container:HelloCedar.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "0DE9F8C41BEA9391006954A6"
                BuildableName = "CedarSampleUITests.xctest"
                BlueprintName = "CedarSampleUITests"
-               ReferencedContainer = "container:CedarSample.xcodeproj">
+               ReferencedContainer = "container:HelloCedar.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DE9F8A01BEA9391006954A6"
-            BuildableName = "CedarSample.app"
-            BlueprintName = "CedarSample"
-            ReferencedContainer = "container:CedarSample.xcodeproj">
+            BuildableName = "HelloCedar.app"
+            BlueprintName = "HelloCedar"
+            ReferencedContainer = "container:HelloCedar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DE9F8A01BEA9391006954A6"
-            BuildableName = "CedarSample.app"
-            BlueprintName = "CedarSample"
-            ReferencedContainer = "container:CedarSample.xcodeproj">
+            BuildableName = "HelloCedar.app"
+            BlueprintName = "HelloCedar"
+            ReferencedContainer = "container:HelloCedar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0DE9F8A01BEA9391006954A6"
-            BuildableName = "CedarSample.app"
-            BlueprintName = "CedarSample"
-            ReferencedContainer = "container:CedarSample.xcodeproj">
+            BuildableName = "HelloCedar.app"
+            BlueprintName = "HelloCedar"
+            ReferencedContainer = "container:HelloCedar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

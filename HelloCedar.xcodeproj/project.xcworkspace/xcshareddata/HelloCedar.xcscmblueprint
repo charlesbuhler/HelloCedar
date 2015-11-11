@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : 0,
+    "8E3EABAC3DEB540C429B3EF995370DAC6D10823F" : 0,
+    "32BF6AB289A4E79447B902560BBC42C536922A7D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40AF8A92-84BF-47A6-8D2A-151EE99DDBEE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : "CedarSample\/Externals\/cedar\/",
+    "8E3EABAC3DEB540C429B3EF995370DAC6D10823F" : "CedarSample\/Externals\/PivotalCoreKit\/",
+    "32BF6AB289A4E79447B902560BBC42C536922A7D" : "CedarSample\/Externals\/Blindside\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloCedar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloCedar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jbsf\/blindside.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32BF6AB289A4E79447B902560BBC42C536922A7D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pivotal\/PivotalCoreKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E3EABAC3DEB540C429B3EF995370DAC6D10823F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pivotal\/cedar",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D"
+    }
+  ]
+}

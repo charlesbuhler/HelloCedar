@@ -13,6 +13,7 @@
 		0D0D3C7F1BEA95BA008CA407 /* libCedar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C621BEA9570008CA407 /* libCedar.a */; };
 		0D0D3C811BEA95D3008CA407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C801BEA95D3008CA407 /* UIKit.framework */; };
 		0D490CDA1BF31080002E2A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D490CD81BF31080002E2A7D /* Main.storyboard */; };
+		0D490D0C1BF3176E002E2A7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D490D0B1BF3176E002E2A7D /* Default-568h@2x.png */; };
 		0D5A5AE81BED5AD6001A78F2 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */; };
 		0D5A5B391BED5DDE001A78F2 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */; };
 		0D5A5B401BED6409001A78F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B3F1BED6409001A78F2 /* AppDelegate.m */; };
@@ -336,6 +337,7 @@
 		0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		0D0D3C801BEA95D3008CA407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D490CD91BF31080002E2A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D490D0B1BF3176E002E2A7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorProvider.h; path = Injector/InjectorProvider.h; sourceTree = "<group>"; };
 		0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InjectorProvider.m; path = Injector/InjectorProvider.m; sourceTree = "<group>"; };
 		0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Foundation.xcodeproj; path = PivotalCoreKit/Foundation/Foundation.xcodeproj; sourceTree = "<group>"; };
@@ -347,11 +349,11 @@
 		0D5A5B481BED688B001A78F2 /* HelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloViewController.h; sourceTree = "<group>"; };
 		0D5A5B491BED688B001A78F2 /* HelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloViewController.m; sourceTree = "<group>"; };
 		0D5A5B4A1BED688B001A78F2 /* HelloViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloViewController.xib; sourceTree = "<group>"; };
-		0DE9F8A11BEA9391006954A6 /* CedarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE9F8A11BEA9391006954A6 /* HelloCedar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCedar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE9F8A51BEA9391006954A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DE9F8B01BEA9391006954A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE9F8B51BEA9391006954A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DE9F8BA1BEA9391006954A6 /* CedarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE9F8BA1BEA9391006954A6 /* HelloCedar.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCedar.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE9F8C01BEA9391006954A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -517,10 +519,11 @@
 		0DE9F8981BEA9391006954A6 = {
 			isa = PBXGroup;
 			children = (
+				0D490D0B1BF3176E002E2A7D /* Default-568h@2x.png */,
 				0D0D3C801BEA95D3008CA407 /* UIKit.framework */,
 				0D0D3C421BEA94A6008CA407 /* Externals */,
-				0DE9F8A31BEA9391006954A6 /* CedarSample */,
-				0DE9F8BD1BEA9391006954A6 /* CedarSampleTests */,
+				0DE9F8A31BEA9391006954A6 /* HelloCedar */,
+				0DE9F8BD1BEA9391006954A6 /* HelloCedarTests */,
 				0DE9F8A21BEA9391006954A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -528,13 +531,13 @@
 		0DE9F8A21BEA9391006954A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DE9F8A11BEA9391006954A6 /* CedarSample.app */,
-				0DE9F8BA1BEA9391006954A6 /* CedarSampleTests.xctest */,
+				0DE9F8A11BEA9391006954A6 /* HelloCedar.app */,
+				0DE9F8BA1BEA9391006954A6 /* HelloCedar.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0DE9F8A31BEA9391006954A6 /* CedarSample */ = {
+		0DE9F8A31BEA9391006954A6 /* HelloCedar */ = {
 			isa = PBXGroup;
 			children = (
 				0DE9F8B01BEA9391006954A6 /* Assets.xcassets */,
@@ -544,7 +547,7 @@
 				0DE9F8A41BEA9391006954A6 /* Supporting Files */,
 				0D5A5B3C1BED63B7001A78F2 /* UI */,
 			);
-			path = CedarSample;
+			path = HelloCedar;
 			sourceTree = "<group>";
 		};
 		0DE9F8A41BEA9391006954A6 /* Supporting Files */ = {
@@ -555,21 +558,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0DE9F8BD1BEA9391006954A6 /* CedarSampleTests */ = {
+		0DE9F8BD1BEA9391006954A6 /* HelloCedarTests */ = {
 			isa = PBXGroup;
 			children = (
 				0D0421ED1BF29D3A00D71806 /* UI */,
 				0DE9F8C01BEA9391006954A6 /* Info.plist */,
 			);
-			path = CedarSampleTests;
+			path = HelloCedarTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DE9F8A01BEA9391006954A6 /* CedarSample */ = {
+		0DE9F8A01BEA9391006954A6 /* HelloCedar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DE9F8CE1BEA9391006954A6 /* Build configuration list for PBXNativeTarget "CedarSample" */;
+			buildConfigurationList = 0DE9F8CE1BEA9391006954A6 /* Build configuration list for PBXNativeTarget "HelloCedar" */;
 			buildPhases = (
 				0DE9F89D1BEA9391006954A6 /* Sources */,
 				0DE9F89E1BEA9391006954A6 /* Frameworks */,
@@ -580,14 +583,14 @@
 			dependencies = (
 				0D5A5B381BED5DCD001A78F2 /* PBXTargetDependency */,
 			);
-			name = CedarSample;
+			name = HelloCedar;
 			productName = CedarSample;
-			productReference = 0DE9F8A11BEA9391006954A6 /* CedarSample.app */;
+			productReference = 0DE9F8A11BEA9391006954A6 /* HelloCedar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0DE9F8B91BEA9391006954A6 /* CedarSampleTests */ = {
+		0DE9F8B91BEA9391006954A6 /* HelloCedarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DE9F8D11BEA9391006954A6 /* Build configuration list for PBXNativeTarget "CedarSampleTests" */;
+			buildConfigurationList = 0DE9F8D11BEA9391006954A6 /* Build configuration list for PBXNativeTarget "HelloCedarTests" */;
 			buildPhases = (
 				0DE9F8B61BEA9391006954A6 /* Sources */,
 				0DE9F8B71BEA9391006954A6 /* Frameworks */,
@@ -599,9 +602,9 @@
 				0D0D3C7E1BEA95A1008CA407 /* PBXTargetDependency */,
 				0DE9F8BC1BEA9391006954A6 /* PBXTargetDependency */,
 			);
-			name = CedarSampleTests;
+			name = HelloCedarTests;
 			productName = CedarSampleTests;
-			productReference = 0DE9F8BA1BEA9391006954A6 /* CedarSampleTests.xctest */;
+			productReference = 0DE9F8BA1BEA9391006954A6 /* HelloCedar.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -622,7 +625,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DE9F89C1BEA9391006954A6 /* Build configuration list for PBXProject "CedarSample" */;
+			buildConfigurationList = 0DE9F89C1BEA9391006954A6 /* Build configuration list for PBXProject "HelloCedar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -649,8 +652,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				0DE9F8A01BEA9391006954A6 /* CedarSample */,
-				0DE9F8B91BEA9391006954A6 /* CedarSampleTests */,
+				0DE9F8A01BEA9391006954A6 /* HelloCedar */,
+				0DE9F8B91BEA9391006954A6 /* HelloCedarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -944,6 +947,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE9F8B11BEA9391006954A6 /* Assets.xcassets in Resources */,
+				0D490D0C1BF3176E002E2A7D /* Default-568h@2x.png in Resources */,
 				0D5A5B4C1BED688B001A78F2 /* HelloViewController.xib in Resources */,
 				0D490CDA1BF31080002E2A7D /* Main.storyboard in Resources */,
 			);
@@ -996,7 +1000,7 @@
 		};
 		0DE9F8BC1BEA9391006954A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0DE9F8A01BEA9391006954A6 /* CedarSample */;
+			target = 0DE9F8A01BEA9391006954A6 /* HelloCedar */;
 			targetProxy = 0DE9F8BB1BEA9391006954A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1099,10 +1103,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CedarSample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HelloCedar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HelloCedar;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$PROJECT_DIR/Externals/Blindside/Headers/Public\"";
 			};
 			name = Debug;
@@ -1111,10 +1115,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CedarSample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HelloCedar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HelloCedar;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$PROJECT_DIR/Externals/Blindside/Headers/Public\"";
 			};
 			name = Release;
@@ -1123,15 +1127,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CedarSampleTests/Info.plist;
+				INFOPLIST_FILE = HelloCedarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarSample.app/CedarSample";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.HelloCedarTests;
+				PRODUCT_NAME = HelloCedar;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCedar.app/HelloCedar";
 				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR/Externals/cedar/Source/Headers\"/** \"$PROJECT_DIR/Externals/Blindside/Headers/Public\"";
 			};
 			name = Debug;
@@ -1140,15 +1144,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CedarSampleTests/Info.plist;
+				INFOPLIST_FILE = HelloCedarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.CedarSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarSample.app/CedarSample";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomiccharles.HelloCedarTests;
+				PRODUCT_NAME = HelloCedar;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCedar.app/HelloCedar";
 				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR/Externals/cedar/Source/Headers\"/** \"$PROJECT_DIR/Externals/Blindside/Headers/Public\"";
 			};
 			name = Release;
@@ -1156,7 +1160,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DE9F89C1BEA9391006954A6 /* Build configuration list for PBXProject "CedarSample" */ = {
+		0DE9F89C1BEA9391006954A6 /* Build configuration list for PBXProject "HelloCedar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DE9F8CC1BEA9391006954A6 /* Debug */,
@@ -1165,7 +1169,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DE9F8CE1BEA9391006954A6 /* Build configuration list for PBXNativeTarget "CedarSample" */ = {
+		0DE9F8CE1BEA9391006954A6 /* Build configuration list for PBXNativeTarget "HelloCedar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DE9F8CF1BEA9391006954A6 /* Debug */,
@@ -1174,7 +1178,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DE9F8D11BEA9391006954A6 /* Build configuration list for PBXNativeTarget "CedarSampleTests" */ = {
+		0DE9F8D11BEA9391006954A6 /* Build configuration list for PBXNativeTarget "HelloCedarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DE9F8D21BEA9391006954A6 /* Debug */,
