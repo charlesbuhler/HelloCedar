@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0421E61BF2943000D71806 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0421E51BF2943000D71806 /* Router.m */; };
+		0D0421E91BF2946C00D71806 /* RouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0421E81BF2946C00D71806 /* RouterModule.m */; };
+		0D0421F01BF29D7300D71806 /* HelloViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D0421EF1BF29D7300D71806 /* HelloViewControllerSpec.mm */; };
 		0D0D3C7F1BEA95BA008CA407 /* libCedar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C621BEA9570008CA407 /* libCedar.a */; };
 		0D0D3C811BEA95D3008CA407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C801BEA95D3008CA407 /* UIKit.framework */; };
+		0D5A5AE81BED5AD6001A78F2 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */; };
+		0D5A5B391BED5DDE001A78F2 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */; };
+		0D5A5B401BED6409001A78F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B3F1BED6409001A78F2 /* AppDelegate.m */; };
+		0D5A5B431BED6548001A78F2 /* ControllersModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B421BED6548001A78F2 /* ControllersModule.m */; };
+		0D5A5B4B1BED688B001A78F2 /* HelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B491BED688B001A78F2 /* HelloViewController.m */; };
+		0D5A5B4C1BED688B001A78F2 /* HelloViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D5A5B4A1BED688B001A78F2 /* HelloViewController.xib */; };
 		0DE9F8A61BEA9391006954A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8A51BEA9391006954A6 /* main.m */; };
-		0DE9F8A91BEA9391006954A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8A81BEA9391006954A6 /* AppDelegate.m */; };
-		0DE9F8AC1BEA9391006954A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9F8AB1BEA9391006954A6 /* ViewController.m */; };
 		0DE9F8AF1BEA9391006954A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8AD1BEA9391006954A6 /* Main.storyboard */; };
 		0DE9F8B11BEA9391006954A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8B01BEA9391006954A6 /* Assets.xcassets */; };
 		0DE9F8B41BEA9391006954A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9F8B21BEA9391006954A6 /* LaunchScreen.storyboard */; };
@@ -323,14 +330,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0421E41BF2943000D71806 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Router.h; path = Router/Router.h; sourceTree = "<group>"; };
+		0D0421E51BF2943000D71806 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Router.m; path = Router/Router.m; sourceTree = "<group>"; };
+		0D0421E71BF2946C00D71806 /* RouterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouterModule.h; path = Injector/RouterModule.h; sourceTree = "<group>"; };
+		0D0421E81BF2946C00D71806 /* RouterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouterModule.m; path = Injector/RouterModule.m; sourceTree = "<group>"; };
+		0D0421EF1BF29D7300D71806 /* HelloViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloViewControllerSpec.mm; sourceTree = "<group>"; };
 		0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		0D0D3C801BEA95D3008CA407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorProvider.h; path = Injector/InjectorProvider.h; sourceTree = "<group>"; };
+		0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InjectorProvider.m; path = Injector/InjectorProvider.m; sourceTree = "<group>"; };
+		0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Foundation.xcodeproj; path = PivotalCoreKit/Foundation/Foundation.xcodeproj; sourceTree = "<group>"; };
+		0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = Blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
+		0D5A5B3E1BED6409001A78F2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D5A5B3F1BED6409001A78F2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D5A5B411BED6548001A78F2 /* ControllersModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControllersModule.h; path = Injector/ControllersModule.h; sourceTree = "<group>"; };
+		0D5A5B421BED6548001A78F2 /* ControllersModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControllersModule.m; path = Injector/ControllersModule.m; sourceTree = "<group>"; };
+		0D5A5B481BED688B001A78F2 /* HelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloViewController.h; sourceTree = "<group>"; };
+		0D5A5B491BED688B001A78F2 /* HelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloViewController.m; sourceTree = "<group>"; };
+		0D5A5B4A1BED688B001A78F2 /* HelloViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloViewController.xib; sourceTree = "<group>"; };
 		0DE9F8A11BEA9391006954A6 /* CedarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE9F8A51BEA9391006954A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0DE9F8A71BEA9391006954A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0DE9F8A81BEA9391006954A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0DE9F8AA1BEA9391006954A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0DE9F8AB1BEA9391006954A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0DE9F8AE1BEA9391006954A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DE9F8B01BEA9391006954A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE9F8B31BEA9391006954A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -361,6 +380,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0421B91BF2940400D71806 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0D0421E41BF2943000D71806 /* Router.h */,
+				0D0421E51BF2943000D71806 /* Router.m */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		0D0421ED1BF29D3A00D71806 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0D0421EE1BF29D4C00D71806 /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0D0421EE1BF29D4C00D71806 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D0421EF1BF29D7300D71806 /* HelloViewControllerSpec.mm */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		0D0D3C421BEA94A6008CA407 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +440,84 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0D5A5AD31BED5AC3001A78F2 /* Injector */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */,
+				0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */,
+				0D5A5B411BED6548001A78F2 /* ControllersModule.h */,
+				0D5A5B421BED6548001A78F2 /* ControllersModule.m */,
+				0D0421E71BF2946C00D71806 /* RouterModule.h */,
+				0D0421E81BF2946C00D71806 /* RouterModule.m */,
+			);
+			name = Injector;
+			sourceTree = "<group>";
+		};
+		0D5A5AEA1BED5B33001A78F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A5AFD1BED5B33001A78F2 /* Foundation+PivotalCore.framework */,
+				0D5A5AFF1BED5B33001A78F2 /* libFoundation+PivotalCore-StaticLib.a */,
+				0D5A5B011BED5B33001A78F2 /* Foundation_PivotalCore.framework */,
+				0D5A5B031BED5B33001A78F2 /* Foundation_PivotalCore.framework */,
+				0D5A5B051BED5B33001A78F2 /* Foundation+PivotalSpecHelper.framework */,
+				0D5A5B071BED5B33001A78F2 /* libFoundation+PivotalSpecHelper-StaticLib.a */,
+				0D5A5B091BED5B33001A78F2 /* Foundation_PivotalSpecHelper.framework */,
+				0D5A5B0B1BED5B33001A78F2 /* Foundation_PivotalSpecHelper.framework */,
+				0D5A5B0D1BED5B33001A78F2 /* FoundationSpec */,
+				0D5A5B0F1BED5B33001A78F2 /* Foundation-StaticLibSpec.app */,
+				0D5A5B111BED5B33001A78F2 /* Foundation-StaticLibSpecBundle.xctest */,
+				0D5A5B131BED5B33001A78F2 /* Foundation-tvOS SpecBundle.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5A5B151BED5DB6001A78F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A5B241BED5DB6001A78F2 /* Blindside.framework */,
+				0D5A5B261BED5DB6001A78F2 /* Blindside.framework */,
+				0D5A5B281BED5DB6001A78F2 /* Blindside.framework */,
+				0D5A5B2A1BED5DB6001A78F2 /* Blindside.framework */,
+				0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */,
+				0D5A5B2E1BED5DB6001A78F2 /* Specs */,
+				0D5A5B301BED5DB6001A78F2 /* Blindside-iOS BuildTest.app */,
+				0D5A5B321BED5DB6001A78F2 /* Blindside-watchOS BuildTest.app */,
+				0D5A5B341BED5DB6001A78F2 /* Blindside-watchOS BuildTest Extension.appex */,
+				0D5A5B361BED5DB6001A78F2 /* Blindside-tvOS BuildTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5A5B3C1BED63B7001A78F2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0D0421B91BF2940400D71806 /* Router */,
+				0D5A5B441BED65BD001A78F2 /* Controllers */,
+				0D5A5B3D1BED63CA001A78F2 /* AppDelegate */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0D5A5B3D1BED63CA001A78F2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A5B3E1BED6409001A78F2 /* AppDelegate.h */,
+				0D5A5B3F1BED6409001A78F2 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0D5A5B441BED65BD001A78F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D5A5B481BED688B001A78F2 /* HelloViewController.h */,
+				0D5A5B491BED688B001A78F2 /* HelloViewController.m */,
+				0D5A5B4A1BED688B001A78F2 /* HelloViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		0DE9F8981BEA9391006954A6 = {
 			isa = PBXGroup;
 			children = (
@@ -419,10 +541,8 @@
 		0DE9F8A31BEA9391006954A6 /* CedarSample */ = {
 			isa = PBXGroup;
 			children = (
-				0DE9F8A71BEA9391006954A6 /* AppDelegate.h */,
-				0DE9F8A81BEA9391006954A6 /* AppDelegate.m */,
-				0DE9F8AA1BEA9391006954A6 /* ViewController.h */,
-				0DE9F8AB1BEA9391006954A6 /* ViewController.m */,
+				0D5A5B3C1BED63B7001A78F2 /* UI */,
+				0D5A5AD31BED5AC3001A78F2 /* Injector */,
 				0DE9F8AD1BEA9391006954A6 /* Main.storyboard */,
 				0DE9F8B01BEA9391006954A6 /* Assets.xcassets */,
 				0DE9F8B21BEA9391006954A6 /* LaunchScreen.storyboard */,
@@ -443,6 +563,7 @@
 		0DE9F8BD1BEA9391006954A6 /* CedarSampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				0D0421ED1BF29D3A00D71806 /* UI */,
 				0DE9F8BE1BEA9391006954A6 /* CedarSampleTests.mm */,
 				0DE9F8C01BEA9391006954A6 /* Info.plist */,
 			);
@@ -830,6 +951,7 @@
 			files = (
 				0DE9F8B41BEA9391006954A6 /* LaunchScreen.storyboard in Resources */,
 				0DE9F8B11BEA9391006954A6 /* Assets.xcassets in Resources */,
+				0D5A5B4C1BED688B001A78F2 /* HelloViewController.xib in Resources */,
 				0DE9F8AF1BEA9391006954A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -848,9 +970,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE9F8AC1BEA9391006954A6 /* ViewController.m in Sources */,
-				0DE9F8A91BEA9391006954A6 /* AppDelegate.m in Sources */,
+				0D0421E91BF2946C00D71806 /* RouterModule.m in Sources */,
+				0D5A5B431BED6548001A78F2 /* ControllersModule.m in Sources */,
+				0D5A5B401BED6409001A78F2 /* AppDelegate.m in Sources */,
+				0D5A5AE81BED5AD6001A78F2 /* InjectorProvider.m in Sources */,
 				0DE9F8A61BEA9391006954A6 /* main.m in Sources */,
+				0D5A5B4B1BED688B001A78F2 /* HelloViewController.m in Sources */,
+				0D0421E61BF2943000D71806 /* Router.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,6 +985,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE9F8BF1BEA9391006954A6 /* CedarSampleTests.mm in Sources */,
+				0D0421F01BF29D7300D71806 /* HelloViewControllerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
