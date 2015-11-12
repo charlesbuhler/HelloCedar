@@ -1,16 +1,19 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EA5BAC167B020821F2A73EF50CE58D302961865F",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : 0,
     "8E3EABAC3DEB540C429B3EF995370DAC6D10823F" : 0,
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : 0,
+    "EA5BAC167B020821F2A73EF50CE58D302961865F" : 0,
     "32BF6AB289A4E79447B902560BBC42C536922A7D" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40AF8A92-84BF-47A6-8D2A-151EE99DDBEE",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : "CedarSample\/Externals\/cedar\/",
     "8E3EABAC3DEB540C429B3EF995370DAC6D10823F" : "CedarSample\/Externals\/PivotalCoreKit\/",
+    "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D" : "CedarSample\/Externals\/cedar\/",
+    "EA5BAC167B020821F2A73EF50CE58D302961865F" : "CedarSample\/",
     "32BF6AB289A4E79447B902560BBC42C536922A7D" : "CedarSample\/Externals\/Blindside\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloCedar",
@@ -31,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pivotal\/cedar",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C17E6AC4A93E78FE05F88AE0011DD4EAD50139D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AtomicCharles\/HelloCedar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA5BAC167B020821F2A73EF50CE58D302961865F"
     }
   ]
 }

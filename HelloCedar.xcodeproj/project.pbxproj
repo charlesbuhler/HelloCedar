@@ -13,7 +13,6 @@
 		0D0D3C7F1BEA95BA008CA407 /* libCedar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C621BEA9570008CA407 /* libCedar.a */; };
 		0D0D3C811BEA95D3008CA407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C801BEA95D3008CA407 /* UIKit.framework */; };
 		0D490CDA1BF31080002E2A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D490CD81BF31080002E2A7D /* Main.storyboard */; };
-		0D490D0C1BF3176E002E2A7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D490D0B1BF3176E002E2A7D /* Default-568h@2x.png */; };
 		0D5A5AE81BED5AD6001A78F2 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */; };
 		0D5A5B391BED5DDE001A78F2 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */; };
 		0D5A5B401BED6409001A78F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B3F1BED6409001A78F2 /* AppDelegate.m */; };
@@ -337,7 +336,6 @@
 		0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		0D0D3C801BEA95D3008CA407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D490CD91BF31080002E2A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D490D0B1BF3176E002E2A7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorProvider.h; path = Injector/InjectorProvider.h; sourceTree = "<group>"; };
 		0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InjectorProvider.m; path = Injector/InjectorProvider.m; sourceTree = "<group>"; };
 		0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Foundation.xcodeproj; path = PivotalCoreKit/Foundation/Foundation.xcodeproj; sourceTree = "<group>"; };
@@ -519,7 +517,6 @@
 		0DE9F8981BEA9391006954A6 = {
 			isa = PBXGroup;
 			children = (
-				0D490D0B1BF3176E002E2A7D /* Default-568h@2x.png */,
 				0D0D3C801BEA95D3008CA407 /* UIKit.framework */,
 				0D0D3C421BEA94A6008CA407 /* Externals */,
 				0DE9F8A31BEA9391006954A6 /* HelloCedar */,
@@ -947,7 +944,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE9F8B11BEA9391006954A6 /* Assets.xcassets in Resources */,
-				0D490D0C1BF3176E002E2A7D /* Default-568h@2x.png in Resources */,
 				0D5A5B4C1BED688B001A78F2 /* HelloViewController.xib in Resources */,
 				0D490CDA1BF31080002E2A7D /* Main.storyboard in Resources */,
 			);
