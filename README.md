@@ -21,3 +21,7 @@ The HelloViewController is initialized with any needed classes (composition over
 ## Author
 
 * [Charles Buhler](https://github.com/charlesbuhler)
+
+
+Copyright (c) 2015 Charles Buhler. This software is licensed under the MIT License.
+
