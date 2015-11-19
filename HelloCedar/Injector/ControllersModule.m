@@ -2,7 +2,7 @@
 #import "ControllersModule.h"
 #import "BSBinder.h"
 #import "BSInjector.h"
-#import "HelloViewController.h"
+#import "HelloController.h"
 #import "TitleTextTransformer.h"
 
 
@@ -11,8 +11,8 @@
 - (void)configure:(id<BSBinder> __nonnull)binder
 {
 
-    [binder bind:[HelloViewController class] toBlock:^id _Nonnull(NSArray * _Nonnull args, id<BSInjector>  _Nonnull injector) {
-        return [[HelloViewController alloc] initWithTitleTextTransformer:[injector getInstance:[TitleTextTransformer class]]];
+    [binder bind:[HelloController class] toBlock:^id _Nonnull(NSArray * _Nonnull args, id<BSInjector>  _Nonnull injector) {
+        return [[HelloController alloc] initWithTitleTextTransformer:[injector getInstance:[TitleTextTransformer class]]];
     }];
     
 }

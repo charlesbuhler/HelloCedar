@@ -1,6 +1,6 @@
 #import "Router.h"
 #import "BSInjector.h"
-#import "HelloViewController.h"
+#import "HelloController.h"
 
 
 @interface Router ()
@@ -18,7 +18,7 @@
         return self.rootViewController__;
     }
     
-    self.rootViewController__ = [self.injector getInstance:[HelloViewController class]];;
+    self.rootViewController__ = [self.injector getInstance:[HelloController class]];;
     
     return self.rootViewController__;
 }

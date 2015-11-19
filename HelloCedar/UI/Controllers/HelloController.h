@@ -3,7 +3,7 @@
 
 @class TitleTextTransformer;
 
-@interface HelloViewController : UIViewController
+@interface HelloController : UIViewController
 
 @property (nonatomic, weak, readonly) UILabel *titleLabel;
 

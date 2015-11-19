@@ -1,8 +1,8 @@
-#import "HelloViewController.h"
+#import "HelloController.h"
 #import "TitleTextTransformer.h"
 
 
-@interface HelloViewController ()
+@interface HelloController ()
 
 @property (nonatomic, weak) IBOutlet UILabel *titleLabel;
 
@@ -10,7 +10,7 @@
 
 @end
 
-@implementation HelloViewController
+@implementation HelloController
 
 - (instancetype)initWithTitleTextTransformer:(TitleTextTransformer *)titleTextTransformer
 {

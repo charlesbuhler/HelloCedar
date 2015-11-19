@@ -1,5 +1,5 @@
 #import "Cedar.h"
-#import "HelloViewController.h"
+#import "HelloController.h"
 #import "BSInjector.h"
 #import "BSBinder.h"
 #import "InjectorProvider.h"
@@ -8,10 +8,10 @@
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
 
-SPEC_BEGIN(HelloViewControllerSpec)
+SPEC_BEGIN(HelloControllerSpec)
 
-describe(@"HelloViewController", ^{
-    __block HelloViewController *subject;
+describe(@"HelloController", ^{
+    __block HelloController *subject;
     __block TitleTextTransformer *titleTextTransformer;
 
     beforeEach(^{
@@ -26,7 +26,7 @@ describe(@"HelloViewController", ^{
             .and_return(expectedTitle);
         
         
-        subject = [injector getInstance:[HelloViewController class]];
+        subject = [injector getInstance:[HelloController class]];
     });
     
     it(@"should correctly set the background color", ^{
