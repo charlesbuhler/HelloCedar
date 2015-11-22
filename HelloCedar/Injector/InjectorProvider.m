@@ -12,7 +12,7 @@
     id<BSModule> controllersModule = [[ControllersModule alloc] init];
     id<BSModule> transformersModule = [[TransformersModule alloc] init];
     id<BSModule> routerModule = [[RouterModule alloc] init];
-    
+
     return (id<BSBinder, BSInjector>)[Blindside injectorWithModules:@[controllersModule,
                                                                       transformersModule,
                                                                       routerModule]];

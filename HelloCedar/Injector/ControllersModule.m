@@ -14,8 +14,7 @@
     [binder bind:[HelloController class] toBlock:^id _Nonnull(NSArray * _Nonnull args, id<BSInjector>  _Nonnull injector) {
         return [[HelloController alloc] initWithTitleTextTransformer:[injector getInstance:[TitleTextTransformer class]]];
     }];
-    
-}
 
+}
 
 @end

@@ -413,6 +413,7 @@
 				0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */,
 				0D0D3C431BEA956F008CA407 /* Cedar.xcodeproj */,
 				0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */,
+				0D0D3C801BEA95D3008CA407 /* UIKit.framework */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -505,10 +506,10 @@
 		0D5A5B3C1BED63B7001A78F2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0D38BECA1BFC1614003E6EFF /* ValueTransformers */,
-				0D0421B91BF2940400D71806 /* Router */,
-				0D5A5B441BED65BD001A78F2 /* Controllers */,
 				0D5A5B3D1BED63CA001A78F2 /* AppDelegate */,
+				0D5A5B441BED65BD001A78F2 /* Controllers */,
+				0D0421B91BF2940400D71806 /* Router */,
+				0D38BECA1BFC1614003E6EFF /* ValueTransformers */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -535,7 +536,6 @@
 		0DE9F8981BEA9391006954A6 = {
 			isa = PBXGroup;
 			children = (
-				0D0D3C801BEA95D3008CA407 /* UIKit.framework */,
 				0D0D3C421BEA94A6008CA407 /* Externals */,
 				0DE9F8A31BEA9391006954A6 /* HelloCedar */,
 				0DE9F8BD1BEA9391006954A6 /* HelloCedarTests */,
@@ -576,8 +576,8 @@
 		0DE9F8BD1BEA9391006954A6 /* HelloCedarTests */ = {
 			isa = PBXGroup;
 			children = (
-				0D0421ED1BF29D3A00D71806 /* UI */,
 				0DE9F8C01BEA9391006954A6 /* Info.plist */,
+				0D0421ED1BF29D3A00D71806 /* UI */,
 			);
 			path = HelloCedarTests;
 			sourceTree = "<group>";

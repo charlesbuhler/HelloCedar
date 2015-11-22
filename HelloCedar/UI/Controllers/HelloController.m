@@ -23,11 +23,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     [self.view setBackgroundColor:[UIColor yellowColor]];
-    
+
     NSAttributedString *titleText = [self.titleTextTransformer transformedValue:@"Hello, Cedar!"];
-    
+
     [self.titleLabel setTextColor:[UIColor redColor]];
     self.titleLabel.attributedText = titleText;
 }

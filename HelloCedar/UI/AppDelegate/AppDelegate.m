@@ -32,11 +32,11 @@
 {
     CGRect mainScreenBounds = [[UIScreen mainScreen] bounds];
     self.window = [[UIWindow alloc] initWithFrame:mainScreenBounds];
-    
+
     UIViewController *rootViewController = [self.router rootViewController];
     self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
-    
+
     return YES;
 }
 

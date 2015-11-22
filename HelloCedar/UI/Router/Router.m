@@ -17,9 +17,9 @@
     if (self.rootViewController__) {
         return self.rootViewController__;
     }
-    
+
     self.rootViewController__ = [self.injector getInstance:[HelloController class]];;
-    
+
     return self.rootViewController__;
 }
 
