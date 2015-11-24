@@ -14,8 +14,8 @@
 		0D38BEF71BFC1683003E6EFF /* TitleTextTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D38BEF61BFC1683003E6EFF /* TitleTextTransformer.m */; };
 		0D38BEFA1BFC1B33003E6EFF /* TransformersModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D38BEF91BFC1B33003E6EFF /* TransformersModule.m */; };
 		0D490CDA1BF31080002E2A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D490CD81BF31080002E2A7D /* Main.storyboard */; };
+		0D533F4D1C043110008BC89A /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D533F401C0430E8008BC89A /* libBlindside-StaticLib.a */; };
 		0D5A5AE81BED5AD6001A78F2 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */; };
-		0D5A5B391BED5DDE001A78F2 /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */; };
 		0D5A5B401BED6409001A78F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B3F1BED6409001A78F2 /* AppDelegate.m */; };
 		0D5A5B431BED6548001A78F2 /* ControllersModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B421BED6548001A78F2 /* ControllersModule.m */; };
 		0D5A5B4B1BED688B001A78F2 /* HelloController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5B491BED688B001A78F2 /* HelloController.m */; };
@@ -27,6 +27,83 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0D533F371C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29CAC6E4150292AD00731862;
+			remoteInfo = Blindside;
+		};
+		0D533F391C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE4864BD1B066F11005DB302;
+			remoteInfo = "Blindside-iOS";
+		};
+		0D533F3B1C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34E710AB1B9F85210088AB71;
+			remoteInfo = "Blindside-watchOS";
+		};
+		0D533F3D1C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343267161BAA2A9C005F2D7A;
+			remoteInfo = "Blindside-tvOS";
+		};
+		0D533F3F1C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29997B471505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
+		0D533F411C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29CAC7001502932000731862;
+			remoteInfo = Specs;
+		};
+		0D533F431C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE03FC1A1B0A57DD00013784;
+			remoteInfo = "Blindside-iOS BuildTest";
+		};
+		0D533F451C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A18BD31B9F887200A65DB3;
+			remoteInfo = "Blindside-watchOS BuildTest";
+		};
+		0D533F471C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34A18BDF1B9F887300A65DB3;
+			remoteInfo = "Blindside-watchOS BuildTest Extension";
+		};
+		0D533F491C0430E8008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 344DA5171BAB042E004270AD;
+			remoteInfo = "Blindside-tvOS BuildTest";
+		};
+		0D533F4B1C043108008BC89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 29997B461505EC0B00C12110;
+			remoteInfo = "Blindside-StaticLib";
+		};
 		0D5A5AFC1BED5B33001A78F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */;
@@ -110,83 +187,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 34A663A41BDF24E700EF0FEA;
 			remoteInfo = "Foundation-tvOS SpecBundle";
-		};
-		0D5A5B231BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 29CAC6E4150292AD00731862;
-			remoteInfo = Blindside;
-		};
-		0D5A5B251BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AE4864BD1B066F11005DB302;
-			remoteInfo = "Blindside-iOS";
-		};
-		0D5A5B271BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 34E710AB1B9F85210088AB71;
-			remoteInfo = "Blindside-watchOS";
-		};
-		0D5A5B291BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 343267161BAA2A9C005F2D7A;
-			remoteInfo = "Blindside-tvOS";
-		};
-		0D5A5B2B1BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 29997B471505EC0B00C12110;
-			remoteInfo = "Blindside-StaticLib";
-		};
-		0D5A5B2D1BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 29CAC7001502932000731862;
-			remoteInfo = Specs;
-		};
-		0D5A5B2F1BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AE03FC1A1B0A57DD00013784;
-			remoteInfo = "Blindside-iOS BuildTest";
-		};
-		0D5A5B311BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 34A18BD31B9F887200A65DB3;
-			remoteInfo = "Blindside-watchOS BuildTest";
-		};
-		0D5A5B331BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 34A18BDF1B9F887300A65DB3;
-			remoteInfo = "Blindside-watchOS BuildTest Extension";
-		};
-		0D5A5B351BED5DB6001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 344DA5171BAB042E004270AD;
-			remoteInfo = "Blindside-tvOS BuildTest";
-		};
-		0D5A5B371BED5DCD001A78F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 29997B461505EC0B00C12110;
-			remoteInfo = "Blindside-StaticLib";
 		};
 		0D9079551C0266EF00339803 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -349,10 +349,10 @@
 		0D38BEF81BFC1B33003E6EFF /* TransformersModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformersModule.h; path = Injector/TransformersModule.h; sourceTree = "<group>"; };
 		0D38BEF91BFC1B33003E6EFF /* TransformersModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransformersModule.m; path = Injector/TransformersModule.m; sourceTree = "<group>"; };
 		0D490CD91BF31080002E2A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D533F281C0430E8008BC89A /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
 		0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorProvider.h; path = Injector/InjectorProvider.h; sourceTree = "<group>"; };
 		0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InjectorProvider.m; path = Injector/InjectorProvider.m; sourceTree = "<group>"; };
 		0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Foundation.xcodeproj; path = PivotalCoreKit/Foundation/Foundation.xcodeproj; sourceTree = "<group>"; };
-		0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = Blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
 		0D5A5B3E1BED6409001A78F2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D5A5B3F1BED6409001A78F2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0D5A5B411BED6548001A78F2 /* ControllersModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControllersModule.h; path = Injector/ControllersModule.h; sourceTree = "<group>"; };
@@ -374,8 +374,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D533F4D1C043110008BC89A /* libBlindside-StaticLib.a in Frameworks */,
 				0D90797B1C02671000339803 /* libCedar.a in Frameworks */,
-				0D5A5B391BED5DDE001A78F2 /* libBlindside-StaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,8 +419,8 @@
 		0D0D3C421BEA94A6008CA407 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				0D533F281C0430E8008BC89A /* Blindside.xcodeproj */,
 				0D90793F1C0266EF00339803 /* Cedar.xcodeproj */,
-				0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */,
 				0D5A5AE91BED5B33001A78F2 /* Foundation.xcodeproj */,
 				0D0D3C801BEA95D3008CA407 /* UIKit.framework */,
 			);
@@ -434,6 +434,23 @@
 				0D38BEF61BFC1683003E6EFF /* TitleTextTransformer.m */,
 			);
 			path = ValueTransformers;
+			sourceTree = "<group>";
+		};
+		0D533F291C0430E8008BC89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D533F381C0430E8008BC89A /* Blindside.framework */,
+				0D533F3A1C0430E8008BC89A /* Blindside.framework */,
+				0D533F3C1C0430E8008BC89A /* Blindside.framework */,
+				0D533F3E1C0430E8008BC89A /* Blindside.framework */,
+				0D533F401C0430E8008BC89A /* libBlindside-StaticLib.a */,
+				0D533F421C0430E8008BC89A /* Specs */,
+				0D533F441C0430E8008BC89A /* Blindside-iOS BuildTest.app */,
+				0D533F461C0430E8008BC89A /* Blindside-watchOS BuildTest.app */,
+				0D533F481C0430E8008BC89A /* Blindside-watchOS BuildTest Extension.appex */,
+				0D533F4A1C0430E8008BC89A /* Blindside-tvOS BuildTest.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		0D5A5AD31BED5AC3001A78F2 /* Injector */ = {
@@ -466,23 +483,6 @@
 				0D5A5B0F1BED5B33001A78F2 /* Foundation-StaticLibSpec.app */,
 				0D5A5B111BED5B33001A78F2 /* Foundation-StaticLibSpecBundle.xctest */,
 				0D5A5B131BED5B33001A78F2 /* Foundation-tvOS SpecBundle.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0D5A5B151BED5DB6001A78F2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0D5A5B241BED5DB6001A78F2 /* Blindside.framework */,
-				0D5A5B261BED5DB6001A78F2 /* Blindside.framework */,
-				0D5A5B281BED5DB6001A78F2 /* Blindside.framework */,
-				0D5A5B2A1BED5DB6001A78F2 /* Blindside.framework */,
-				0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */,
-				0D5A5B2E1BED5DB6001A78F2 /* Specs */,
-				0D5A5B301BED5DB6001A78F2 /* Blindside-iOS BuildTest.app */,
-				0D5A5B321BED5DB6001A78F2 /* Blindside-watchOS BuildTest.app */,
-				0D5A5B341BED5DB6001A78F2 /* Blindside-watchOS BuildTest Extension.appex */,
-				0D5A5B361BED5DB6001A78F2 /* Blindside-tvOS BuildTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -605,8 +605,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				0D533F4C1C043108008BC89A /* PBXTargetDependency */,
 				0D90797A1C02670400339803 /* PBXTargetDependency */,
-				0D5A5B381BED5DCD001A78F2 /* PBXTargetDependency */,
 			);
 			name = HelloCedar;
 			productName = CedarSample;
@@ -663,8 +663,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 0D5A5B151BED5DB6001A78F2 /* Products */;
-					ProjectRef = 0D5A5B141BED5DB6001A78F2 /* Blindside.xcodeproj */;
+					ProductGroup = 0D533F291C0430E8008BC89A /* Products */;
+					ProjectRef = 0D533F281C0430E8008BC89A /* Blindside.xcodeproj */;
 				},
 				{
 					ProductGroup = 0D9079401C0266EF00339803 /* Products */;
@@ -684,6 +684,76 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		0D533F381C0430E8008BC89A /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 0D533F371C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F3A1C0430E8008BC89A /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 0D533F391C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F3C1C0430E8008BC89A /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 0D533F3B1C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F3E1C0430E8008BC89A /* Blindside.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blindside.framework;
+			remoteRef = 0D533F3D1C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F401C0430E8008BC89A /* libBlindside-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libBlindside-StaticLib.a";
+			remoteRef = 0D533F3F1C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F421C0430E8008BC89A /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 0D533F411C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F441C0430E8008BC89A /* Blindside-iOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-iOS BuildTest.app";
+			remoteRef = 0D533F431C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F461C0430E8008BC89A /* Blindside-watchOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-watchOS BuildTest.app";
+			remoteRef = 0D533F451C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F481C0430E8008BC89A /* Blindside-watchOS BuildTest Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "Blindside-watchOS BuildTest Extension.appex";
+			remoteRef = 0D533F471C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D533F4A1C0430E8008BC89A /* Blindside-tvOS BuildTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Blindside-tvOS BuildTest.app";
+			remoteRef = 0D533F491C0430E8008BC89A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		0D5A5AFD1BED5B33001A78F2 /* Foundation+PivotalCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -766,76 +836,6 @@
 			fileType = wrapper.cfbundle;
 			path = "Foundation-tvOS SpecBundle.xctest";
 			remoteRef = 0D5A5B121BED5B33001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B241BED5DB6001A78F2 /* Blindside.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Blindside.framework;
-			remoteRef = 0D5A5B231BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B261BED5DB6001A78F2 /* Blindside.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Blindside.framework;
-			remoteRef = 0D5A5B251BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B281BED5DB6001A78F2 /* Blindside.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Blindside.framework;
-			remoteRef = 0D5A5B271BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B2A1BED5DB6001A78F2 /* Blindside.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Blindside.framework;
-			remoteRef = 0D5A5B291BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B2C1BED5DB6001A78F2 /* libBlindside-StaticLib.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libBlindside-StaticLib.a";
-			remoteRef = 0D5A5B2B1BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B2E1BED5DB6001A78F2 /* Specs */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = Specs;
-			remoteRef = 0D5A5B2D1BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B301BED5DB6001A78F2 /* Blindside-iOS BuildTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Blindside-iOS BuildTest.app";
-			remoteRef = 0D5A5B2F1BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B321BED5DB6001A78F2 /* Blindside-watchOS BuildTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Blindside-watchOS BuildTest.app";
-			remoteRef = 0D5A5B311BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B341BED5DB6001A78F2 /* Blindside-watchOS BuildTest Extension.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = "Blindside-watchOS BuildTest Extension.appex";
-			remoteRef = 0D5A5B331BED5DB6001A78F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D5A5B361BED5DB6001A78F2 /* Blindside-tvOS BuildTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Blindside-tvOS BuildTest.app";
-			remoteRef = 0D5A5B351BED5DB6001A78F2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		0D9079561C0266EF00339803 /* Cedar.framework */ = {
@@ -1014,10 +1014,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0D5A5B381BED5DCD001A78F2 /* PBXTargetDependency */ = {
+		0D533F4C1C043108008BC89A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Blindside-StaticLib";
-			targetProxy = 0D5A5B371BED5DCD001A78F2 /* PBXContainerItemProxy */;
+			targetProxy = 0D533F4B1C043108008BC89A /* PBXContainerItemProxy */;
 		};
 		0D90797A1C02670400339803 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
