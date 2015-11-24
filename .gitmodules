@@ -1,9 +1,6 @@
 [submodule "Externals/cedar"]
 	path = Externals/cedar
 	url = https://github.com/pivotal/cedar
-[submodule "Externals/PivotalCoreKit"]
-	path = Externals/PivotalCoreKit
-	url = https://github.com/pivotal/PivotalCoreKit.git
-[submodule "Externals/Blindside"]
-	path = Externals/Blindside
-	url = https://github.com/jbsf/blindside.git
+[submodule "Externals/blindside"]
+	path = Externals/blindside
+	url = git@github.com:jbsf/blindside.git
