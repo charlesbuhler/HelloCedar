@@ -13,6 +13,7 @@
 		0D0D3C811BEA95D3008CA407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D3C801BEA95D3008CA407 /* UIKit.framework */; };
 		0D38BEF71BFC1683003E6EFF /* TitleTextTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D38BEF61BFC1683003E6EFF /* TitleTextTransformer.m */; };
 		0D38BEFA1BFC1B33003E6EFF /* TransformersModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D38BEF91BFC1B33003E6EFF /* TransformersModule.m */; };
+		0D4167521C496807006DF188 /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D4167511C496807006DF188 /* AppDelegateSpec.mm */; };
 		0D490CDA1BF31080002E2A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D490CD81BF31080002E2A7D /* Main.storyboard */; };
 		0D533F4D1C043110008BC89A /* libBlindside-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D533F401C0430E8008BC89A /* libBlindside-StaticLib.a */; };
 		0D5A5AE81BED5AD6001A78F2 /* InjectorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5A5AE71BED5AD6001A78F2 /* InjectorProvider.m */; };
@@ -349,6 +350,7 @@
 		0D38BEF81BFC1B33003E6EFF /* TransformersModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformersModule.h; path = Injector/TransformersModule.h; sourceTree = "<group>"; };
 		0D38BEF91BFC1B33003E6EFF /* TransformersModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransformersModule.m; path = Injector/TransformersModule.m; sourceTree = "<group>"; };
 		0D3B98AE1C05203400BC01BC /* Foundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Foundation.xcodeproj; path = pivotalCoreKit/Foundation/Foundation.xcodeproj; sourceTree = "<group>"; };
+		0D4167511C496807006DF188 /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
 		0D490CD91BF31080002E2A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D533F281C0430E8008BC89A /* Blindside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blindside.xcodeproj; path = blindside/Blindside.xcodeproj; sourceTree = "<group>"; };
 		0D5A5AE61BED5AD6001A78F2 /* InjectorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InjectorProvider.h; path = Injector/InjectorProvider.h; sourceTree = "<group>"; };
@@ -403,6 +405,7 @@
 		0D0421ED1BF29D3A00D71806 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				0D4167261C4967AF006DF188 /* AppDelegate */,
 				0D0421EE1BF29D4C00D71806 /* Controllers */,
 			);
 			path = UI;
@@ -453,6 +456,14 @@
 				0D3B98D81C05203400BC01BC /* Foundation-tvOS SpecBundle.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0D4167261C4967AF006DF188 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0D4167511C496807006DF188 /* AppDelegateSpec.mm */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		0D533F291C0430E8008BC89A /* Products */ = {
@@ -1008,6 +1019,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D0421F01BF29D7300D71806 /* HelloViewControllerSpec.mm in Sources */,
+				0D4167521C496807006DF188 /* AppDelegateSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

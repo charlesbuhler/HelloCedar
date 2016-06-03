@@ -28,17 +28,14 @@ describe(@"HelloController", ^{
 
 
         subject = [injector getInstance:[HelloController class]];
+        [subject loadViewIfNeeded];
     });
 
     it(@"should correctly set the background color", ^{
-        [subject loadViewIfNeeded];
-
         subject.view.backgroundColor should equal([UIColor yellowColor]);
     });
 
     it(@"should correctly set the title text", ^{
-        [subject loadViewIfNeeded];
-
         subject.titleLabel.textColor should equal([UIColor redColor]);
         subject.titleLabel.text should equal(@"my_expected_title");
     });
