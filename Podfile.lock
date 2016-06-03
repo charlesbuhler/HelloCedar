@@ -1,0 +1,13 @@
+PODS:
+  - Blindside (1.3.1)
+  - Cedar (1.0)
+
+DEPENDENCIES:
+  - Blindside
+  - Cedar
+
+SPEC CHECKSUMS:
+  Blindside: 5e32e80fa301ddff70c3f5735cb44467cf3195ff
+  Cedar: a641e5ed0353bd9d45782ce365d0822b7342cce3
+
+COCOAPODS: 0.39.0
